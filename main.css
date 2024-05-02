@@ -7,11 +7,184 @@ body{
     font-family: 'Raleway', sans-serif;
     color: #464646;
     overflow-x: hidden;
+    padding: 10px 60px 10px 64px;
+    
+}
+
+h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: medium;
 }
 
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+}
+
+.profile-img{
+    width: 25%;
+    border-radius: 100%;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.profile-title{
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.profile-network{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 80%;
+    padding: 64px;
+    background-color: #EAF2FD;
+}
+
+.about-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.skills-hobbies{
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+    padding: 64px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.skills-title{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.skills-line{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.hobbies-title{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.hobbies-line{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.academic-education{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: #EAF2FD;
+    padding: 64px;
+}
+
+.academic-education-title{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.academic-education-line{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.experience-title{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 64px 0;
+}
+
+.experience-box{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: 50px;
+    padding-bottom: 64px;
+}
+
+.experience-img{
+    width: 50%;
+}
+
+.experience-info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.experience-description{
+    display: flex;
+    gap: 16px;
+}
+
+button{
+    font-size: 16px;
+    color: #2A7AE4;
+    border: 1px solid;
+    padding: 16px 10px;
+    width: 115px;
+}
+
+.btn-demo{
+    background-color: #2A7AE4;
+    color: #EAF2FD;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
